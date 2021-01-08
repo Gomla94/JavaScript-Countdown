@@ -20,8 +20,6 @@ let formCountdownDate = '';
 let storedCountdown;
 let countdownValue = Date;
 
-document.cookie = 'ahmed';
-alert(document.cookie);
 //here we will set the minimum value of the date input to be today's date.
 const today = new Date().toISOString().split('T')[0];
 datePicker.setAttribute('min', today);
